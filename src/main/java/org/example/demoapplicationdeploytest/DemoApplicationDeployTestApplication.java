@@ -15,6 +15,7 @@ public class DemoApplicationDeployTestApplication {
 
     @GetMapping("/")
     public String hello() {
+        System.out.println("Successful!");
         return "✅ Java Maven app is running on OpenShift!";
     }
 
