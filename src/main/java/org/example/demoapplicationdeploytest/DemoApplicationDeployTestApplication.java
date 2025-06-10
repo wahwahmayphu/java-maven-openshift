@@ -18,4 +18,11 @@ public class DemoApplicationDeployTestApplication {
         return "✅ Java Maven app is running on OpenShift!";
     }
 
+    @GetMapping("/test")
+    public String test() {
+        return "✅ Testing Java Maven app is running on OpenShift!";
+    }
+
+
+
 }
